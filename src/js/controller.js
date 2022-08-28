@@ -2,6 +2,8 @@ import * as model from './model.js';
 import recipeView from './views/recipeView.js';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
+import previewView from './views/previewView.js';
+import searchView from './views/searchView.js';
 
 const timeout = function (s) {
   return new Promise(function (_, reject) {
@@ -26,12 +28,32 @@ const controlRecipes = async function () {
     // Rendering recipe
     recipeView.render(model.state.recipe);
   } catch (err) {
-    recipeView.renderError(`OOOps ${err}`);
+    recipeView.renderError();
   }
 };
 
+const controlSearchResults = async function () {
+  try {
+    const query = searchView.getQuery();
+
+    // Guard clause
+    if (!query) return;
+
+    // Loading search results
+    await model.loadSearchResult(query);
+
+    // Rendering list of recipes result
+    previewView.renderPreview(model.state.search.results);
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+controlSearchResults();
+
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
+  searchView.addHandlerSearch(controlSearchResults);
 };
 
 init();
