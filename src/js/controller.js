@@ -2,8 +2,13 @@ import * as model from './model.js';
 import recipeView from './views/recipeView.js';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
-import previewView from './views/previewView.js';
+import resultsView from './views/resultsView.js';
 import searchView from './views/searchView.js';
+
+// Parcel
+// if (module.hot) {
+//   module.hot.accept();
+// }
 
 const timeout = function (s) {
   return new Promise(function (_, reject) {
@@ -39,11 +44,13 @@ const controlSearchResults = async function () {
     // Guard clause
     if (!query) return;
 
+    resultsView.renderSpinner();
+
     // Loading search results
     await model.loadSearchResult(query);
 
     // Rendering list of recipes result
-    previewView.renderPreview(model.state.search.results);
+    resultsView.render(model.state.search.results);
   } catch (err) {
     console.log(err);
   }
