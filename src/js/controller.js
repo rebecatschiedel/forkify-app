@@ -49,8 +49,8 @@ const controlSearchResults = async function () {
     // Loading search results
     await model.loadSearchResult(query);
 
-    // Rendering list of recipes result
-    resultsView.render(model.state.search.results);
+    // Rendering limited number of recipes from search result
+    resultsView.render(model.getSearchResultPage());
   } catch (err) {
     console.log(err);
   }
