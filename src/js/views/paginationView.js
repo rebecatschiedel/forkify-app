@@ -6,6 +6,18 @@ class PaginationView extends View {
   _errorMessage = 'Error message here!';
   _message = ' ';
 
+  addHandlerClick(handler) {
+    this._parentElement.addEventListener('click', function (e) {
+      const btn = e.target.closest('.btn--inline');
+
+      if (!btn) return;
+
+      const goToPage = Number(btn.dataset.goto);
+
+      handler(goToPage);
+    });
+  }
+
   _generateMarkup() {
     const numPages = Math.ceil(
       this._data.results.length / this._data.resultsPerPage
@@ -27,7 +39,9 @@ class PaginationView extends View {
 
   _generateMarkupLeftButton() {
     return `
-    <button class="btn--inline pagination__btn--prev">
+    <button data-goto=${
+      this._data.page - 1
+    } class="btn--inline pagination__btn--prev">
         <svg class="search__icon">
             <use href="${icons}#icon-arrow-left"></use>
         </svg>
@@ -37,7 +51,9 @@ class PaginationView extends View {
 
   _generateMarkupRightButton() {
     return `
-    <button class="btn--inline pagination__btn--next">
+    <button data-goto=${
+      this._data.page + 1
+    } class="btn--inline pagination__btn--next">
         <span>Page ${this._data.page + 1}</span>
         <svg class="search__icon">
             <use href="${icons}#icon-arrow-right"></use>
