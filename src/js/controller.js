@@ -4,6 +4,7 @@ import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 import resultsView from './views/resultsView.js';
 import searchView from './views/searchView.js';
+import paginationView from './views/paginationView.js';
 
 // Parcel
 // if (module.hot) {
@@ -50,7 +51,8 @@ const controlSearchResults = async function () {
     await model.loadSearchResult(query);
 
     // Rendering limited number of recipes from search result
-    resultsView.render(model.getSearchResultPage());
+    resultsView.render(model.getSearchResultPage(4));
+    paginationView.render(model.state.search);
   } catch (err) {
     console.log(err);
   }

@@ -1,4 +1,4 @@
-7627
+7628
 83C:\Users\rebec\Desktop\forkify-app\node_modules\css-tree\lib\syntax\function\var.js133047057638314938 0
 72C:\Users\rebec\Desktop\forkify-app\node_modules\terser\lib\propmangle.js133047057635526648 0
 81C:\Users\rebec\Desktop\forkify-app\node_modules\svgo\plugins\removeUselessDefs.js133047057636015026 0
@@ -25,7 +25,7 @@
 76C:\Users\rebec\Desktop\forkify-app\node_modules\electron-to-chromium\LICENSE133047057625371343 0
 55C:\Users\rebec\Desktop\forkify-app\node_modules\timsort133047057633643569 1
 78C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\features\array\push.js133048092724453934 0
-39C:\Users\rebec\Desktop\forkify-app\dist133062938491567848 1
+39C:\Users\rebec\Desktop\forkify-app\dist133062970476023870 1
 86C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\full\array\virtual\group-by.js133048092719008354 0
 78C:\Users\rebec\Desktop\forkify-app\node_modules\css-what\lib\commonjs\index.js133047057625516127 0
 108C:\Users\rebec\Desktop\forkify-app\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\060-contribute.md133047057636391886 0
@@ -37,7 +37,7 @@
 111C:\Users\rebec\Desktop\forkify-app\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\sample-bdb.txt133047057638642406 0
 58C:\Users\rebec\Desktop\forkify-app\node_modules\domhandler133047057627339919 1
 77C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\internals\freezing.js133048092717851450 0
-55C:\Users\rebec\Desktop\forkify-app\src\js\controller.js133062938490452494 0
+55C:\Users\rebec\Desktop\forkify-app\src\js\controller.js133062964407214211 0
 74C:\Users\rebec\Desktop\forkify-app\node_modules\picomatch\lib\picomatch.js133047058969557091 0
 80C:\Users\rebec\Desktop\forkify-app\node_modules\@parcel\workers\test\integration133047057629436627 1
 46C:\Users\rebec\Desktop\forkify-app\.prettierrc132821025847632929 0
@@ -70,7 +70,7 @@
 63C:\Users\rebec\Desktop\forkify-app\forkify-flowchart-part-3.png132821025848161506 0
 90C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\modules\esnext.set.is-subset-of.js133048092715088848 0
 85C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\stable\object\from-entries.js133048092717941217 0
-45C:\Users\rebec\Desktop\forkify-app\index.html133062090997851628 0
+45C:\Users\rebec\Desktop\forkify-app\index.html133062946088808319 0
 75C:\Users\rebec\Desktop\forkify-app\node_modules\to-regex-range\package.json133047058969379116 0
 93C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\internals\object-define-properties.js133048092723596085 0
 73C:\Users\rebec\Desktop\forkify-app\node_modules\css-tree\lib\syntax\scope133047057638285014 1
@@ -213,7 +213,7 @@
 71C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\features\number133048092728293516 1
 82C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\features\symbol\matcher.js133048092723217105 0
 75C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\stable\set\index.js133048092720843449 0
-50C:\Users\rebec\Desktop\forkify-app\src\js\model.js133062938363397238 0
+50C:\Users\rebec\Desktop\forkify-app\src\js\model.js133062943085688862 0
 69C:\Users\rebec\Desktop\forkify-app\node_modules\@parcel\packager-html133047057632035067 1
 56C:\Users\rebec\Desktop\forkify-app\node_modules\anymatch133047058969507226 1
 60C:\Users\rebec\Desktop\forkify-app\node_modules\caniuse-lite133047057643559057 1
@@ -228,7 +228,11 @@
 67C:\Users\rebec\Desktop\forkify-app\node_modules\yaml\browser\seq.js133047057634232652 0
 79C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\proposals\decorators.js133048092711029706 0
 80C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\proposals\error-cause.js133048092712106813 0
-47C:\Users\rebec\Desktop\forkify-app\src\js\views133062087588094964 1
+47C:\Users\rebec\Desktop\forkify-app\src\js\views133062945119820257 1
+53C:\Users\rebec\Desktop\forkify-app\node_modules\chalk133047057627320887 1
+50C:\Users\rebec\Desktop\forkify-app\dist\index.html133062946092151201 0
+70C:\Users\rebec\Desktop\forkify-app\node_modules\entities\lib\generated133047057631745221 1
+65C:\Users\rebec\Desktop\forkify-app\src\js\views\paginationView.js133062970474776890 0
 81C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\actual\number\to-fixed.js133048092727874635 0
 53C:\Users\rebec\Desktop\forkify-app\node_modules\clone133047057627023695 1
 82C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\features\symbol\species.js133048092726458441 0
@@ -368,10 +372,6 @@
 104C:\Users\rebec\Desktop\forkify-app\node_modules\@parcel\utils\test\input\sourcemap\referenced-min.js.map133047057638314938 0
 72C:\Users\rebec\Desktop\forkify-app\node_modules\domutils\lib\legacy.d.ts133047057631411911 0
 57C:\Users\rebec\Desktop\forkify-app\node_modules\@trysound133047057619302669 1
-68C:\Users\rebec\Desktop\forkify-app\node_modules\term-size\index.d.ts133047057628432166 0
-58C:\Users\rebec\Desktop\forkify-app\node_modules\color-name133047057625842339 1
-75C:\Users\rebec\Desktop\forkify-app\node_modules\normalize-path\package.json133047058969389078 0
-84C:\Users\rebec\Desktop\forkify-app\node_modules\svgo\plugins\cleanupNumericValues.js133047057629285151 0
 77C:\Users\rebec\Desktop\forkify-app\node_modules\@swc\helpers\scripts\build.sh133047057637035156 0
 66C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\stage\1.js133048092708346875 0
 73C:\Users\rebec\Desktop\forkify-app\node_modules\supports-color\browser.js133047057625436323 0
@@ -403,13 +403,10 @@
 78C:\Users\rebec\Desktop\forkify-app\node_modules\@parcel\core\lib\assetUtils.js133047057635674881 0
 74C:\Users\rebec\Desktop\forkify-app\node_modules\nth-check\lib\esm\parse.js133047057627123424 0
 91C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\full\array\virtual\filter-reject.js133048092715966487 0
-80C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\stable\instance\every.js133048092715687234 0
 61C:\Users\rebec\Desktop\forkify-app\node_modules\svgo\lib\svgo133047057637045132 1
+80C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\stable\instance\every.js133048092715687234 0
 86C:\Users\rebec\Desktop\forkify-app\node_modules\@parcel\core\lib\public\BundleGraph.js133047057636246380 0
 57C:\Users\rebec\Desktop\forkify-app\node_modules\nth-check133047057630891348 1
-53C:\Users\rebec\Desktop\forkify-app\node_modules\chalk133047057627320887 1
-50C:\Users\rebec\Desktop\forkify-app\dist\index.html133062090998978614 0
-70C:\Users\rebec\Desktop\forkify-app\node_modules\entities\lib\generated133047057631745221 1
 95C:\Users\rebec\Desktop\forkify-app\node_modules\@parcel\watcher\src\watchman\WatchmanBackend.cc133047057629187349 0
 74C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\es\string\fixed.js133048092716973801 0
 68C:\Users\rebec\Desktop\forkify-app\node_modules\terser\lib\minify.js133047057634925107 0
@@ -425,6 +422,10 @@
 58C:\Users\rebec\Desktop\forkify-app\node_modules\parcel\src133047057633311592 1
 83C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\es\string\virtual\anchor.js133048092708666036 0
 66C:\Users\rebec\Desktop\forkify-app\node_modules\chrome-trace-event133047057627310909 1
+68C:\Users\rebec\Desktop\forkify-app\node_modules\term-size\index.d.ts133047057628432166 0
+58C:\Users\rebec\Desktop\forkify-app\node_modules\color-name133047057625842339 1
+75C:\Users\rebec\Desktop\forkify-app\node_modules\normalize-path\package.json133047058969389078 0
+84C:\Users\rebec\Desktop\forkify-app\node_modules\svgo\plugins\cleanupNumericValues.js133047057629285151 0
 88C:\Users\rebec\Desktop\forkify-app\node_modules\caniuse-lite\data\features\indexeddb2.js133047057640582898 0
 77C:\Users\rebec\Desktop\forkify-app\node_modules\cosmiconfig\dist\index.js.map133047057632132332 0
 61C:\Users\rebec\Desktop\forkify-app\node_modules\source-map-js133047058969720155 1
@@ -2339,8 +2340,8 @@
 77C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\stable\object\keys.js133048092722339448 0
 69C:\Users\rebec\Desktop\forkify-app\node_modules\.bin\browserslist.cmd133047057671991701 0
 75C:\Users\rebec\Desktop\forkify-app\node_modules\node-addon-api\package.json133047057630092522 0
-82C:\Users\rebec\Desktop\forkify-app\node_modules\node-addon-api\tools\check-napi.js133047057629008145 0
 88C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\features\array\virtual\concat.js133048092710411358 0
+82C:\Users\rebec\Desktop\forkify-app\node_modules\node-addon-api\tools\check-napi.js133047057629008145 0
 84C:\Users\rebec\Desktop\forkify-app\node_modules\node-addon-api\tools\clang-format.js133047057629224308 0
 76C:\Users\rebec\Desktop\forkify-app\node_modules\msgpackr-extract\binding.gyp133047057629008145 0
 68C:\Users\rebec\Desktop\forkify-app\node_modules\is-arrayish\index.js133047057626452911 0
@@ -2474,7 +2475,7 @@
 80C:\Users\rebec\Desktop\forkify-app\node_modules\lmdb\node_modules\node-addon-api133047057631068344 1
 85C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\internals\number-parse-int.js133048092723566164 0
 86C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\modules\esnext.math.degrees.js133048092714739770 0
-57C:\Users\rebec\Desktop\forkify-app\dist\index.e37f48ea.js133062938491548203 0
+57C:\Users\rebec\Desktop\forkify-app\dist\index.e37f48ea.js133062970476003930 0
 102C:\Users\rebec\Desktop\forkify-app\node_modules\lmdb\node_modules\node-addon-api\napi-inl.deprecated.h133047057627003758 0
 91C:\Users\rebec\Desktop\forkify-app\node_modules\lmdb\node_modules\node-addon-api\napi-inl.h133047057628405394 0
 71C:\Users\rebec\Desktop\forkify-app\node_modules\core-js\configurator.js133048092710461215 0
@@ -7624,5 +7625,5 @@
 63C:\Users\rebec\Desktop\forkify-app\node_modules\.bin\terser.cmd133047057672001696 0
 63C:\Users\rebec\Desktop\forkify-app\dist\forkify-app.3464ddca.js133047058987400151 0
 58C:\Users\rebec\Desktop\forkify-app\dist\icons.dfd7a6db.svg133062088516668989 0
-61C:\Users\rebec\Desktop\forkify-app\dist\index.e37f48ea.js.map133062938491567848 0
+61C:\Users\rebec\Desktop\forkify-app\dist\index.e37f48ea.js.map133062970476023870 0
 57C:\Users\rebec\Desktop\forkify-app\dist\logo.726d37a8.png133062088514356555 0
