@@ -18,7 +18,7 @@ class RecipeView extends View {
       if (!btn) return;
 
       const updateTo = Number(btn.dataset.updateTo);
-      handler(updateTo);
+      if (updateTo > 0) handler(updateTo);
     });
   }
 
@@ -52,7 +52,7 @@ class RecipeView extends View {
     
             <div class="recipe__info-buttons">
               <button class="btn--tiny btn--update-servings" data-update-to="${
-                this._data.servings - 1 < 1 ? 1 : this._data.servings - 1
+                this._data.servings - 1
               }">
                 <svg>
                   <use href="${icons}#icon-minus-circle"></use>
