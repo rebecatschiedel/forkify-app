@@ -32,7 +32,7 @@ const controlRecipes = async function () {
     // Update search results preview to active class
     resultsView.update(model.getSearchResultPage());
 
-    // Update bookmark results preview to active class
+    // Update bookmarks view
     bookmarksView.update(model.state.bookmarks);
 
     // Loading recipe
@@ -42,6 +42,7 @@ const controlRecipes = async function () {
     recipeView.render(model.state.recipe);
   } catch (err) {
     recipeView.renderError();
+    console.log(err);
   }
 };
 
@@ -92,7 +93,13 @@ const controlAddBookmark = function () {
   bookmarksView.render(model.state.bookmarks);
 };
 
+const controlBookmarks = function () {
+  // Render Bookmarks on local storage
+  bookmarksView.render(model.state.bookmarks);
+};
+
 const init = function () {
+  bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipes);
   recipeView.addHandlerUpdateServings(controlServings);
   recipeView.addHandlerAddBookmark(controlAddBookmark);
