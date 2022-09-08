@@ -6,4 +6,4 @@ export const RES_PER_PAGE = 10;
 
 export const KEY = 'c70e4f7c-cac7-4769-878e-14517f1446ca';
 
-export const MODAL_CLOSE_SEC = 3.5;
+export const MODAL_CLOSE_SEC = 5;
