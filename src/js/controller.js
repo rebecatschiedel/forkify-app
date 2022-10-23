@@ -68,6 +68,23 @@ const controlSearchResults = async function () {
   }
 };
 
+const loadDefaultResult = async function () {
+  try {
+    const query = 'strawberry';
+
+    resultsView.renderSpinner();
+
+    // Loading search results
+    await model.loadSearchResult(query);
+
+    // Rendering limited number of recipes from search result
+    resultsView.render(model.getSearchResultPage());
+    paginationView.render(model.state.search);
+  } catch (err) {
+    console.log(err);
+  }
+};
+
 const controlPagination = function (goToPage) {
   // Rendering limited number of recipes from search result
   resultsView.render(model.getSearchResultPage(goToPage));
@@ -138,6 +155,7 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  loadDefaultResult();
 };
 
 init();
